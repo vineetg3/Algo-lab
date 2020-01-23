@@ -20,12 +20,13 @@ printf("AAAA\n");
 			sumarr[i]=sum1;
 		}
 	}
-	//for(int i=0;i<psetcount;i++)printf("%d\n",sumarr[i] );
+	for(int i=0;i<psetcount;i++)printf("%d ",sumarr[i] );
 	int count=0;
 	for(int i=0;i<psetcount;i++){
 		if(sumarr[i]==sum/2)count++;
- 	if(count>2)return count;
+ 	if(count>=2)return count;
 	}
+	
 	return 0;
 }
 
