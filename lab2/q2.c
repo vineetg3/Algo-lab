@@ -53,12 +53,12 @@ int gcd(int a,int b){
 	return gcd;
 }
 
-void main(){
+int main(){
 	// int a,b;
-	// printf("Enter two numbers to find the gcd\n");
 	// scanf("%d %d",&a,&b);
 	int a,b,f;
 	scanf("%d %d",&a,&b);
+	//printf("AAAAAA\n");
 	f=gcd(a,b);
 	printf("gcd is %d\n",f);
 
